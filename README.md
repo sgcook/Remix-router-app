@@ -19,13 +19,15 @@ A full-stack application built with React Router 7 (formerly Remix), featuring u
 
 ### Installation
 
-1. Clone the repository and install dependencies:
+1. Use node version 25
+
+2. Clone the repository and install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Set up environment variables:
+3. Set up environment variables:
 
    Create a `.env` file in the root directory:
 
@@ -34,7 +36,7 @@ A full-stack application built with React Router 7 (formerly Remix), featuring u
    SESSION_SECRET="your-secret-key-here"
    ```
 
-3. Set up the database:
+4. Set up the database:
 
    ```bash
    # Generate Prisma Client
